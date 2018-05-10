@@ -30,6 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.10.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=6.10.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Budget.cs" />
+    <Compile Include="ConnectBD.cs" />
     <Compile Include="IBudget.cs" />
     <Compile Include="IFinancialPoint.cs" />
     <Compile Include="Item.cs" />
