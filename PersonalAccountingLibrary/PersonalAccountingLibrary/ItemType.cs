@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonalAccountingLibrary
 {
-    enum TypeItem
+    public enum TypeItem
     {
         Income = 1,
         Outcome = 2,

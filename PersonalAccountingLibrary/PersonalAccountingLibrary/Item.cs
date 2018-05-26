@@ -16,9 +16,9 @@ namespace PersonalAccountingLibrary
 
         public string Name { get { return name; } }
         public decimal Value { get { return val; } }
-        public DateTime When { get {return date; } }
-        public TypeCurrency Currency { get { return curr ; } }
-        public TypeItem Aim { get { return type; } }
+        public DateTime When { get { return date; } }
+        public TypeCurrency Currency { get { return curr; } }
+        public TypeItem Ment { get { return type; } }
 
         public Item()
         {
@@ -34,7 +34,7 @@ namespace PersonalAccountingLibrary
             this.name = name;
             date = DateTime.Now;
             curr = TypeCurrency.Ruble;
-            type = Math.Sign(value) > 0? TypeItem.Income: TypeItem.Outcome;
+            type = Math.Sign(value) > 0 ? TypeItem.Income : TypeItem.Outcome;
 
             if (value == 0)
             {
@@ -100,6 +100,11 @@ namespace PersonalAccountingLibrary
         public virtual void ChangeItem(TypeItem newType)
         {
             type = newType;
+        }
+
+        public ItemView GetView()
+        {
+            return new ItemView(this);
         }
     }
 }

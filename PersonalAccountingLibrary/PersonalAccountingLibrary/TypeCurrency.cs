@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonalAccountingLibrary
 {
-    enum TypeCurrency
+    public enum TypeCurrency
     {
         Ruble,
         Dollar,

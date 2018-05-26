@@ -12,10 +12,15 @@ namespace PersonalAccountingLibrary
         decimal Value { get; }
         DateTime When { get; }
         TypeCurrency Currency { get; }
-        TypeItem Aim { get; }
+        TypeItem Ment { get; }
 
         void ChangeName(string newName);
         void ChangeValueOn(decimal odd);
         void ChangeValue(decimal newValue);
+        void ChangeDate(DateTime newDate);
+        void ChangeCurrency(TypeCurrency newCurrency);
+        void ChangeItem(TypeItem newType);
+
+        ItemView GetView();
     }
 }

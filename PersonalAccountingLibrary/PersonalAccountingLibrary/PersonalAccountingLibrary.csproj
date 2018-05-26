@@ -46,8 +46,11 @@
     <Compile Include="ConnectBD.cs" />
     <Compile Include="IBudget.cs" />
     <Compile Include="IFinancialPoint.cs" />
+    <Compile Include="ISet.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="ItemSet.cs" />
     <Compile Include="ItemType.cs" />
+    <Compile Include="ItemView.cs" />
     <Compile Include="IUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RateTable.cs" />
