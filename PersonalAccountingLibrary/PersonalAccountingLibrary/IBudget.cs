@@ -8,6 +8,6 @@ namespace PersonalAccountingLibrary
 {
     interface IBudget
     {
-
+        Dictionary<string, List<ItemView>> Items { get; }
     }
 }
