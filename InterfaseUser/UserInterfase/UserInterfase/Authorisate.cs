@@ -24,20 +24,34 @@ namespace UserInterfase
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "server=localhost;user=root;database=bugalteria;password=root;";
+            string login=txtUser.Text;
+            string password=txtPassword.Text;
+            string myConnectionString = "Database=accouting76;Data Source= 85.10.205.173;User Id=roouting12;Port= 3306;Password=Qw123456789";
             // объект для установления соединения с БД
-            MySqlConnection connection = new MySqlConnection(connectionString);
+            MySqlConnection connection = new MySqlConnection(myConnectionString);
             // открываем соединение
             connection.Open();
             // запросы
-            // запрос вставки данных
-            
+            string query = "SELECT COUNT(*) FROM user WHERE name='"+ txtUser.Text + "' and password='" + txtPassword.Text + "'";
+            DataTable dt = new DataTable();
             // объект для выполнения SQL-запроса
-            MySqlCommand command = new MySqlCommand(query, connection);
-            // выполняем запрос
-            command.ExecuteNonQuery();
-            // закрываем подключение к БД
-            connection.Close();
+            MySqlDataAdapter command = new MySqlDataAdapter(query, connection);
+            command.Fill(dt);
+            int count = Convert.ToInt32(dt.Rows[0][0].ToString());
+
+            if (count == 0)
+                MessageBox.Show("Нету там таких", "User not found!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
+            {
+                MessageBox.Show("Здрасте", "Hello!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+            }
+        
+           
+    // выполняем запрос
+    //command.ExecuteNonQuery();
+    // закрываем подключение к БД
+    connection.Close();
         }
     }
 }
