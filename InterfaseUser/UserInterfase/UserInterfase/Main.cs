@@ -15,6 +15,14 @@ namespace UserInterfase
         public Main()
         {
             InitializeComponent();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Authorisate newForm = new Authorisate();
+            newForm.ShowDialog();
+
         }
     }
 }
