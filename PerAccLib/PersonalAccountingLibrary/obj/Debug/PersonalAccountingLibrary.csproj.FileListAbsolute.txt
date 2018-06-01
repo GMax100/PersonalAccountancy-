@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\ВГУ\Проект ТП\БД\PersonalAccountingLibrary\PersonalAccountingLibrary\obj\Debug\PersonalAccountingLibrary.csprojResolveAssemblyReference.cache
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\PersonalAccountingLibrary\obj\Debug\PersonalAccountingLibrary.csprojResolveAssemblyReference.cache
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\PersonalAccountingLibrary\bin\Debug\PersonalAccountingLibrary.dll
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\PersonalAccountingLibrary\bin\Debug\PersonalAccountingLibrary.pdb
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\PersonalAccountingLibrary\obj\Debug\PersonalAccountingLibrary.dll
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\PersonalAccountingLibrary\obj\Debug\PersonalAccountingLibrary.pdb

@@ -1,0 +1,8 @@
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\ConsoleView\bin\Debug\ConsoleView.exe.config
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\ConsoleView\bin\Debug\ConsoleView.exe
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\ConsoleView\bin\Debug\ConsoleView.pdb
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\ConsoleView\bin\Debug\PersonalAccountingLibrary.dll
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\ConsoleView\bin\Debug\PersonalAccountingLibrary.pdb
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\ConsoleView\obj\Debug\ConsoleView.csprojResolveAssemblyReference.cache
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\ConsoleView\obj\Debug\ConsoleView.exe
+D:\0Tre\CSF\PersonalAccounting\PersonalAccountingLibrary\ConsoleView\obj\Debug\ConsoleView.pdb
